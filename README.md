@@ -8,3 +8,7 @@ Demo integration of CocoaPods into a Playground
 
 ## Steps to reproduce
 * Create a new Xcode project 
+* Navigate to project directory
+* pod init
+* Update Podfile with AlamoFire (see example)
+* pod install
