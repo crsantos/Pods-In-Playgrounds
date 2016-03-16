@@ -7,8 +7,15 @@ Demo integration of CocoaPods into a Playground
 * CocoaPods 1.0.0.beta.6
 
 ## Steps to reproduce
-* Create a new Xcode project 
+* Create a new Xcode project (close after creating)
 * Navigate to project directory
 * pod init
-* Update Podfile with AlamoFire (see example)
+* Update Podfile with Alamofire (see example)
 * pod install
+* Open .xcworkspace
+* Add a new playground to the workspace
+* Manage schemes -> Check 'Alamofire'
+* Build the Alamofire scheme
+* Xcode triggers a warning about updating the bundle settings for Alamofire; accept changes
+* You should now be able to 'import Alamofire' in the playground
+
