@@ -7,7 +7,8 @@ Demo integration of CocoaPods into a Playground
 * CocoaPods 1.0.0.beta.6
 
 ## Steps to reproduce
-* Create a new Xcode project (close after creating)
+* Create a new Xcode project
+* Close Xcode
 * Navigate to project directory
 * pod init
 * Update Podfile with Alamofire (see example)
