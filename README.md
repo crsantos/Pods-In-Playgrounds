@@ -1,12 +1,12 @@
-# Pods In Playgrounds
+# Pods In Playgrounds ⚙️
 Demo integration of CocoaPods into a Playground
 
-## Environment
-* OS X El Capitan 10.11.4
-* Xcode 7.2.1 (7C1002)
-* CocoaPods 1.0.0.beta.6
+## Environment 📦
+* macOS Sierra 10.12.4
+* Xcode 8.3.2 (8E2002)
+* CocoaPods 1.2.1
 
-## Steps to reproduce
+## Steps to reproduce 👣
 * Create a new Xcode project
 * Close Xcode
 * Navigate to project directory
